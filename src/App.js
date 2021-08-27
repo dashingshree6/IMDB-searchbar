@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import CardList from "./components/Card/CardList";
+import {series} from "./lib/Series";
 import 'tachyons';
-import {series} from './lib/Series';
 import Searchbox from './components/Searchbox/Searchbox';
 import Scroll from './components/Scroll/Scroll'
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 
 class App extends Component {
  constructor() {
@@ -40,7 +41,9 @@ class App extends Component {
           <h1>IMDB</h1>
           <Searchbox searchChange={this.onSearch}/>  
           <Scroll>
-            <CardList series={displaySeries}/> 
+            <ErrorBoundary>
+               <CardList series={displaySeries}/> 
+            </ErrorBoundary>
           </Scroll>
         </div>
       );
@@ -50,3 +53,4 @@ class App extends Component {
 }
 
 export default App;
+
