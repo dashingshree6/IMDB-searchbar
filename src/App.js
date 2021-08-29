@@ -17,7 +17,8 @@ class App extends Component {
    }
  }
  
- /*componentDidMount() {
+ /* Fetching Dynamic data through APIs
+  componentDidMount() {
    fetch('./lib/Series.js')
    .then(response => response.json())
    .then(series => this.setState({series : series}))
