@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import React, { useState. useHooks} from 'react';
 import './App.css';
 import CardList from "./components/Card/CardList";
 import {series} from "./lib/Series";
@@ -17,6 +18,10 @@ class App extends Component {
    }
  }
  
+ const App = () => {
+   
+ }
+
  /* Fetching Dynamic data through APIs
   componentDidMount() {
    fetch('./lib/Series.js')
