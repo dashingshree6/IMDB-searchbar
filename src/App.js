@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 //import React, { useState. useHooks} from 'react';
 import './App.css';
 import CardList from "./components/Card/CardList";
@@ -18,11 +18,44 @@ class App extends Component {
    }
  }
  
- const App = () => {
-   
+/* WITH THE HELP OF HOOKS
+  const [series, setSeries] = useState([]);
+  const [setInput, setInputs] = useState('');
+
+
+  const onSearch = (event) => {
+  setInputs(event.target.value)
  }
 
- /* Fetching Dynamic data through APIs
+ useEffeect(() => {
+  fetch('./lib/Series.js')
+  .then(response => response.json())
+  .then(series => {setSeries(series)})
+ },[])
+  
+ const displaySeries = series.filter(series => {
+  return series.name.toLowerCase().includes(setInput.toLowerCase())
+})
+  if(series.length === 0){
+//if(!series.length)   
+  return <h1>Loading</h1>
+  } else {
+  return (
+    <div className="App">
+      <h1>IMDB</h1>
+      <Searchbox searchChange={onSearch}/>  
+      <Scroll>
+        <ErrorBoundary>
+           <CardList series={displaySeries}/> 
+        </ErrorBoundary>
+      </Scroll>
+    </div>
+  );
+
+}
+
+
+ // Fetching Dynamic data through APIs
   componentDidMount() {
    fetch('./lib/Series.js')
    .then(response => response.json())
