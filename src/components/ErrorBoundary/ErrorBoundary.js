@@ -14,7 +14,7 @@ class ErrorBoundary extends React.Component {
 
     render() {
         if(this.state.hasError) {
-            return <h1>Oops .Trouble Loading Page</h1>
+            return <h1>Ooooops .Trouble Loading Page</h1>
         }
         return this.props.children
     }
