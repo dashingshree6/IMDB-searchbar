@@ -1,3 +1,8 @@
+# IMDB Search Bar
+
+## In this you will find an interactive searchbar. 
+## You can use it for you projects.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
