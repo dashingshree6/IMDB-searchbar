@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
 //import React, { useState. useHooks} from 'react';
 import './App.css';
+//import { Provider , connect } from "react-redux";
 import CardList from "./components/Card/CardList";
 import {series} from "./lib/Series";
 import 'tachyons';
