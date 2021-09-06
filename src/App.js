@@ -8,6 +8,7 @@ import 'tachyons';
 import Searchbox from './components/Searchbox/Searchbox';
 import Scroll from './components/Scroll/Scroll'
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
+//import { createStore } from "react-redux";
 
 class App extends Component {
  constructor() {
