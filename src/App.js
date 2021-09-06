@@ -10,6 +10,11 @@ import Scroll from './components/Scroll/Scroll'
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 //import { createStore } from "react-redux";
 
+/* 
+
+const store = createStore(rootReducer);
+
+*/
 class App extends Component {
  constructor() {
    super()
