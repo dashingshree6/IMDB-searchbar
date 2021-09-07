@@ -3,7 +3,7 @@
 ## In this you will find an interactive searchbar. 
 ## You can use it for you projects.
 ## In this I have created with using normal apis from javascript file.
-
+## With the help of fetch you can fetch data from your favorites apis.
 
 # Getting Started with Create React App
 
