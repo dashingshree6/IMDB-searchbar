@@ -4,6 +4,7 @@
 ## You can use it for you projects.
 ## In this I have created with using normal apis from javascript file.
 ## With the help of fetch you can fetch data from your favorites apis.
+## All the steps related to reducers are commented out, you can use them accordingly. 
 
 # Getting Started with Create React App
 
