@@ -13,7 +13,9 @@ import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 /* 
 
 const store = createStore(rootReducer);
-
+const rootReducer = () => {
+ 
+}
 */
 class App extends Component {
  constructor() {
