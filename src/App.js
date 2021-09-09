@@ -14,7 +14,7 @@ import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 
 const store = createStore(rootReducer);
 const rootReducer = () => {
- 
+   Case 
 }
 */
 class App extends Component {
