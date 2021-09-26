@@ -11,7 +11,13 @@ class ErrorBoundary extends React.Component {
     componentDidCatch(error,info) {
         this.setState({hasError : true})
     }
-
+    
+    render() {
+        if(this.state.hasError) {
+            return <h1>Ooooops .Trouble Loading Page</h1>
+        }
+        return this.props.children
+    }
     
 }
 
