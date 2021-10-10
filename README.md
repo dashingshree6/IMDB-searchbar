@@ -49,7 +49,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 
-facebook.github.io/create-react-app/docs/getting
+facebook.github.io/create-react-app/docs/
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
