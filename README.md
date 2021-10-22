@@ -64,7 +64,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Advanced Configuration
 
-/create-react-app/docs/advanced-configuration)
+/docs/advanced-configuration)
 
 
 
