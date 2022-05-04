@@ -1,4 +1,4 @@
-# IMDB Search Bar #
+# IMDB Search Bar ##
 
 ## In this you will find an interactive searchbar. 
 ## You can use it for you projects.
